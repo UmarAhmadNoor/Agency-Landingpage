@@ -1,0 +1,21 @@
+body {
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+  }
+
+.mainfeatures
+{ 
+    background-color:#6d6a6a;
+    font-weight: bold; 
+    font-family: Bebas Neue;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: rgb(0, 0, 0);
+    height: 92vh;
+    width: 14%;
+    border-radius: 10px;
+    
+}

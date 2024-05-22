@@ -1,0 +1,14 @@
+.mainprice
+{
+    background-color:#adafff;
+    font-weight: bold; 
+    font-family: Bebas Neue;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    color: rgb(90, 90, 94);
+    height: 93vh;
+    font-size: 24px;
+}

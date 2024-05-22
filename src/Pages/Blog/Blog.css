@@ -1,0 +1,14 @@
+.mainBlog
+{
+    background-color:#311e55;
+    font-weight: bold; 
+    font-family: Bebas Neue;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    color: rgb(221, 224, 253);
+    height: 93vh;
+    font-size: 24px;
+}

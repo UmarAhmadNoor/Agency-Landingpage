@@ -1,0 +1,248 @@
+body {
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+  }
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }     
+    to {
+      opacity: 1;
+    }
+  }
+  .maincontainer {
+    background-color:#ffff;
+    font-weight: bold;
+    font-family: Bebas Neue;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    color: rgb(87, 87, 87);
+    gap: 20px;
+    animation: slideInTop 0.10s ease forwards;
+  }
+.navbar {
+    display: flex;
+    animation: slideInLeft 0.5s ease forwards;
+    justify-content: space-around;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    animation: slideInLeft 0.5s ease forwards;
+    /* padding: 0 300px 0px 270px ; */
+  
+  }
+  .navbarimg {
+    width: 157px;
+    height: 30px;
+    margin-top: 20px;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 700;
+    font-family: Bebas Neue;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    color: rgb(87, 87, 87);
+  }
+  @keyframes scaleUp {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .nav-links li a:hover {
+    color: green;
+  }
+  .navbarimgbutton{
+    
+    width: 163px;
+    height: 46px;
+  }
+  .navbtnstyle
+  {
+    width: 133px;
+    height: 36px;
+    background-color: green;
+    border: solid 2px green;
+    text-align: center;
+    color: #ffff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .Hero
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color:silver ;
+    font-size: 11.8px;
+    height: 40vh;
+   
+    
+   
+  }
+  .Hero3
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  
+    font-size: 11.8px;
+    height: 40vh;
+    
+   
+  }
+  .lefthero
+  {
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+  .heropic
+  {
+    width: 382.16px;
+    height: 353.3px;
+  }
+
+
+  .registerbtnstyle
+  {
+    width: 89px;
+    height: 36px;
+    background-color: green;
+    border: solid 2px green;
+    text-align: center;
+    color: #ffff;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+  .clientscontainer
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .clientslogo
+  {
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+  }
+  .clientshp
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+  }
+  .comm
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .threeecont
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  .cone
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+      width: 100%;
+}
+.headbtn
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainfooter {
+    background-color:silver ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(87, 87, 87);
+  }
+  #heading1 {
+    font-size: 30px;
+    color: black;
+  }
+  #style1 {
+    font-size: 40px;
+    margin-right: 60px;
+    width: 60%;
+  }
+  .footercont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .pppmain {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .ppp {
+    display: flex;
+    gap: 3px;
+  }
+  .innerft {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .lastsec {
+    font-family: Rajdhani;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  #scbtn {
+    background-color: green;
+    border: solid 2px green;
+
+  }
+  
